@@ -41,3 +41,9 @@ button {
     transition: all 1s;
 }
 
+/* Mobile CSS */
+@media screen and (max-width: 620px){
+    input {
+        min-width: 200px;
+        font-size: 19px;
+    }
