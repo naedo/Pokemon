@@ -42,15 +42,32 @@ button {
     font-size: 20px;
     width: 200px;
     height: 60px;
+    margin-top: 10px;
     
     -webkit-transition: all 1s;
     transition: all 1s;
-}
+} 
 
 a {
     color: white;
     text-decoration: none;
     font-size: 15px;
+}
+
+#gen {
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+} #gen select {
+    color: black;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    width: 50%;
 }
 
 /* Mobile CSS */
