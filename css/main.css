@@ -61,7 +61,9 @@ a {
     margin-top: 5%;
     text-align: center;
 } #gen select {
+    height: 60px;
     color: black;
+    text-align: center;
 }
 hr {
     border: 0;
